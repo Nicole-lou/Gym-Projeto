@@ -1,2 +1,2 @@
 # Gym-Projeto
-landing page de uma academia
+Uma landing page de uma academia em andamento 
