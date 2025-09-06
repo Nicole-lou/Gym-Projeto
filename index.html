@@ -8,6 +8,8 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
 <!-- Fontes -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,25 +18,40 @@
 </head>
 <body>
 
-    <header class="cabecalho">
-    <nav class="navegacao">
-    <div class="logo">
-    <img src="img/logo-academia.png" width="90" height="90">
-    </div> <!--fim logo-->
+    <header class="container-fluid">
+      <!--menu - navbar-->
+    <nav class="navbar navbar-expand-lg bs-dark-bg-subtle">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">
+      <img src="img/logo-academia.png" height="90" alt="logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="planos.html">Planos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="aulas.html">Nossas Aulas</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="endereco.html">Endereço</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="contato.html">Contato</a>
+        </li>
 
-    <ul class="menu">
-    <li> <a href="index.html">Home</a> </li>
-    <li> <a href="planos">Planos</a> </li>
-    <li> <a href="aulas">Nossas Aulas</a> </li>
-    <li> <a href="endereco">Endereço</a> </li>
-    <li> <a href="contato.html">Contato</a> </li>
-    </ul>
-
-    <div class="whats">
-    <img width="30" height="30" src="https://img.icons8.com/color/48/whatsapp--v1.png" alt="whatsapp--v1"/>
-    </div> <!--fim whats-->
-
-    </nav>
+        
+      </ul>
+    </div>
+  </div>
+</nav> <!--fim menu navbar-->
+    
     </header> <!-- Fim Cabecalho -->
 
     <section id="home" class="home">
@@ -94,6 +111,6 @@
 
 
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
 </body>
 </html>
