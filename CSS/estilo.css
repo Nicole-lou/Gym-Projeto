@@ -42,6 +42,20 @@ body {
   
 }
 
+/* section nossas aulas*/
+#aulas h2 {
+    color: var(--verde-neon);
+    font-weight: light;
+    font-size: 1.9rem;
+}
+
+#cards h4 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--verde-neon);
+}
+
+/* buttons */
 .btn-neon {
     background-color: var(--verde-neon);
     border: 2px solid var(--verde-neon);
@@ -51,8 +65,8 @@ body {
 }
 
 .btn-neon:hover {
-    background-color: #00CC00;
-    border-color: #00CC00;
+    background-color: #95be57;
+    border-color: #8BC339;
 }
 
 
