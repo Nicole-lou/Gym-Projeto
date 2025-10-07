@@ -49,10 +49,21 @@ body {
     font-size: 1.9rem;
 }
 
+#aulas p {
+    color: #000000;
+}
+
 #cards h4 {
     font-size: 1.4rem;
     font-weight: 700;
     color: var(--verde-neon);
+}
+
+.card-img-top {
+    border-top-left-radius: calc(0.9rem - 2px); /* Ajusta a borda arredondada no topo */
+    border-top-right-radius: calc(0.9rem - 2px);
+    height: 200px; /* Altura fixa para as imagens */
+    object-fit: cover; /* Garante que a imagem preencha o espaço sem distorcer */
 }
 
 /* buttons */
@@ -62,6 +73,7 @@ body {
     color: #000 !important; /* Texto preto no botão verde */
     font-weight: bold;
     text-transform: uppercase;
+    border-radius: 5px;
 }
 
 .btn-neon:hover {
@@ -69,7 +81,37 @@ body {
     border-color: #8BC339;
 }
 
+#porque-escolher  {
+    width: 100%;
+    height: auto;
+    background-color: #000000;
+    color: #fff;
+}
 
 
+#planos {
+    width: 100%;
+    height: auto;
+    background-color: #000000;
+    color: #fff;
+}
+
+#planos h2 {
+    color: var(--verde-neon);
+    font-weight: light;
+    font-size: 1.9rem;
+}
+
+#cards-planos h4  {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--fundo-card);
+}
+
+#cards-planos h5  {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--verde-neon);
+}
 
 
